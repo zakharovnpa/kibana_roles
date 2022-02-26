@@ -1,0 +1,5 @@
+---
+# vars file for kibana
+#
+
+kibana_version: "7.14.0"

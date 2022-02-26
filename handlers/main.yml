@@ -1,0 +1,12 @@
+---
+# handlers file for kibana
+#
+#
+
+
+  - name: restart Elasticsearch
+    become: true
+    service:
+      name: elasticsearch
+      state: restarted
+

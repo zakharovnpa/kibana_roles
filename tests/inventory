@@ -1,0 +1,16 @@
+---
+
+#localhost
+
+kibana:
+  hosts:
+    k-instance:
+      ansible_host: 130.193.49.156
+  vars:
+    ansible_connection: ssh
+    ansible_user: centos
+
+  roles:
+    - kibana
+
+

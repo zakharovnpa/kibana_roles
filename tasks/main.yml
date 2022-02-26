@@ -1,0 +1,10 @@
+---
+# tasks file for kibana
+#
+
+  - import_tasks: "configure.yml"
+    tags: [config]
+  - include_tasks: "download_kibana_rpm.yml"
+    tags: [install]
+  - include_tasks: "install_kibana.yml"
+    tags: [install]
