@@ -1,5 +1,3 @@
-# kibana_roles
-
 Kibana role
 =========
 
@@ -34,4 +32,4 @@ Author Information
 
 An optional section for the role authors to include contact information, or a website (HTML is not allowed).
 - Zakharov Sergey, Netology student of DevOps engeneers course.
-- This README.md ver.0.0.01
+- This README.md ver.0.0.02
