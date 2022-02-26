@@ -1,9 +1,9 @@
 ---
 
-    - name: Configure Kibana
-      become: true
-      template:
-        src: kibana.yml.j2
-        dest: /etc/kibana/kibana.yml
-      notify: restart kibana
+- name: Configure Kibana
+    become: true
+    template:
+      src: kibana.yml.j2
+      dest: /etc/kibana/kibana.yml
+    notify: restart kibana
 

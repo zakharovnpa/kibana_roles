@@ -1,8 +1,8 @@
 ---
 
 - name: "Download Kibana's rpm"
-      get_url:
-        url: "https://artifacts.elastic.co/downloads/kibana/kibana-{{ elk_stack_version }}-x86_64.rpm"
-        dest: "/tmp/kibana-{{ elk_stack_version }}-x86_64.rpm"
-      register: download_kibana
-      until: download_kibana is succeeded
+  get_url:
+    url: "https://artifacts.elastic.co/downloads/kibana/kibana-{{ elk_stack_version }}-x86_64.rpm"
+    dest: "/tmp/kibana-{{ elk_stack_version }}-x86_64.rpm"
+  register: download_kibana
+  until: download_kibana is succeeded
