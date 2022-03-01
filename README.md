@@ -1,3 +1,4 @@
+### Описание функционала `Kibana role` согласно ДЗ.
 Kibana role
 =========
 
@@ -34,7 +35,7 @@ An optional section for the role authors to include contact information, or a we
 - Zakharov Sergey, Netology student of DevOps engeneers course.
 - This README.md ver.0.0.02
 ---
-### Описание функционала `ansible-playbook` согласно ДЗ.
+
 * Показана структура файлов роли с описанием задач, модулей, методов, переменных и их значений, при выполнении которых Ansible на управляемых нодах установит утилиты и настроит соответствующие конфигурации.
 
 1. Файл `ansible/playbook/site.yml`
