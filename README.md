@@ -83,12 +83,12 @@ An optional section for the role authors to include contact information, or a we
 4. Файл ` kibana_roles/tasks/configure_kibana.yml`
 ```yml
 - name: Configure Kibana
-    become: true
-    template:
-      src: kibana.yml.j2
-      mode: 0644
-      dest: /etc/kibana/kibana.yml
-    notify: restart kibana
+  become: true
+  template:
+    src: kibana.yml.j2
+    mode: 0644
+    dest: /etc/kibana/kibana.yml
+  notify: restart kibana
 ```
 * `- name: Configure Kibana`   Имя задачи.
 * `become: true`      Выполнять с повышением привелегий (под УЗ root по дефолту)
